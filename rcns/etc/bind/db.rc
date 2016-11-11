@@ -1,0 +1,11 @@
+@           IN   SOA rcns root.rcns 2006031201 28 14 3600000 0
+
+@           IN    NS rcns
+rcns      	IN     A 30.0.2.2
+
+car     	IN NS car.rc
+car.rc  	IN  A 100.0.12.2
+
+truck     	IN NS truck.rc
+truck.rc  	IN  A 150.50.200.1
+

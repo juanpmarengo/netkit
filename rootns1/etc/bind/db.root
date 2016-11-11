@@ -3,6 +3,5 @@
 @          IN NS rootns
 rootns     IN  A 8.8.4.4
 
-info        IN NS infons.info
-infons.info IN  A 10.0.2.2
-
+rc         IN NS rcns.rc
+rcns.rc    IN  A 30.0.2.2
