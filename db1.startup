@@ -1,0 +1,3 @@
+ifconfig eth0 20.0.23.130/25 up
+
+route add default 20.0.23.129
