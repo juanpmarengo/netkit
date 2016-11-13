@@ -1,3 +1,10 @@
 ifconfig eth0 50.0.40.1/24 up
 
 route add default gw 50.0.40.2
+
+chmod a+w /var/spool/mail
+
+chmod go-rw /etc/exim4/exim4.conf
+
+/etc/init.d/exim4 start
+/etc/init.d/inetd start

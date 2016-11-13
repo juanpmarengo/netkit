@@ -1,6 +1,8 @@
 @           IN   SOA r201 root.r201 2006031201 28 14 3600000 0
 
 @           IN    NS r201
+@		    IN	MX 5 mail.truck.rc
+
 r201        IN     A 150.20.200.1
 
 r102		IN 	   A 100.0.12.2
@@ -11,3 +13,7 @@ pc2         IN  AAAA 2200::2
 
 www         IN     A 30.0.12.2
 www         IN     A 50.0.30.2
+
+mail		IN     A 20.0.23.4
+imap		IN	   A 20.0.23.4
+pop		    IN	   A 20.0.23.4
