@@ -7,5 +7,5 @@ car     	IN NS r102.car
 r102.car  	IN  A 100.0.12.2
 
 truck     	IN NS r201.truck
-r201.truck  IN  A 150.50.200.1
+r201.truck  IN  A 150.20.200.1
 

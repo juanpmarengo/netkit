@@ -6,6 +6,7 @@ ifconfig eth2 up
 ifconfig eth2 add 2100::1/64
 
 /etc/init.d/zebra start
+/etc/init.d/bind start
 
 ip tunnel add tun mode sit remote 150.50.200.1 local 100.0.13.3 ttl 10
 ifconfig tun up
